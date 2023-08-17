@@ -1,0 +1,3 @@
+MotherBoard
+CPU
+GPU

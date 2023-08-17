@@ -1,0 +1,32 @@
+   17  cd Clase7\ \(16-08-23\)/
+   18  git init
+   19  git config user.name AnttonDEVx
+   20  git config user.email pedro.poncevergara@gmail.com
+   21  git remote add origin https://github.com/AnttonDEVx/16_08_23-PedroAntonioPonceVergara.git
+   22  touch main.js
+   23  touch index.html
+   24  ls
+   25  git add .
+   26  git commit -m "commit 01 de Pedro Antonio Ponce Vergara"
+   27  git push origin main
+   28  git branch feature
+   29  git checkout feature
+   30  mkdir Hardware/ Software/ SeguridadInformatica/
+   31  ls
+   32  touch Hardware/resumen.txt SeguridadInformatica/resumen.txt Software/resumen.txt
+   33  ls
+   34  git add .
+   35  git commit -m "commit 02 de Pedro Antonio Ponce Vergara"
+   36  git push origin feature
+   37  git checkout main
+   38  mv main.js resumenHardware.txt
+   39  mv index.html resumenHardware.txt
+   40  echo "MotherBoard" > resumenHardware.txt
+   41  echo "CPU" >> resumenHardware.txt
+   42  echo "GPU" >>> resumenHardware.txt
+   43  echo "GPU" >>resumenHardware.txt
+   44  echo "PowerShell" > resumenSoftware.txt
+   45  echo "Microsoft Edge" >> resumenSoftware.txt
+   46  echo "Google Sketchup" >> resumenSoftware.txt
+   47  touch comandos.txt
+   48  history 32 > comandos.txt
